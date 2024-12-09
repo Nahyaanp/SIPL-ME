@@ -10,6 +10,7 @@
     <meta name="author" content="">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="icon" href="/assets/images/logo.png">
 
     <title>SIPL ME</title>
 
@@ -308,8 +309,10 @@ Nahyaan Poonawala
                 <span class="tag">512GB SSD</span>
             </div>
             <div class="price-order">
-                <button class="order-button">Get a Quote</button>
-            </div>
+              <button class="order-button" onclick="redirectToInquiry('Latti 5440 NoteBook (DELL)')">Get a Quote</button>
+
+
+          </div>
         </div>
     </div>
     <br>
@@ -330,9 +333,8 @@ Nahyaan Poonawala
             <span class="tag">60Hz</span>
           </div>
           <div class="price-order">
-             
-              <button class="order-button">Get a Quote </button>
-          </div>
+            <button class="order-button" onclick="redirectToInquiry('SamSung 24 Curved Screen (Samsung)')">Get a Quote</button>
+        </div>
       </div>
   </div>
   <br>
@@ -353,8 +355,8 @@ Nahyaan Poonawala
             <span class="tag">Storage</span>
         </div>
         <div class="price-order">
-            <button class="order-button">Get a Quote</button>
-        </div>
+          <button class="order-button" onclick="redirectToInquiry('2.5 1TB SATA III(TEAMGROUP)')">Get a Quote</button>
+      </div>
     </div>
 </div>
 <br>
@@ -374,8 +376,8 @@ Nahyaan Poonawala
           <span class="tag">Cyber Security</span>
       </div>
       <div class="price-order">
-          <button class="order-button">Get a Quote</button>
-      </div>
+        <button class="order-button" onclick="redirectToInquiry('MCAFEE')">Get a Quote</button>
+    </div>
   </div>
 </div>
 <br>
@@ -397,8 +399,8 @@ Nahyaan Poonawala
           <span class="tag">Intel UHD Graphics</span>
       </div>
       <div class="price-order">
-          <button class="order-button">Get a Quote</button>
-      </div>
+        <button class="order-button" onclick="redirectToInquiry('OptiPlex 7010 Desktop (DELL)')">Get a Quote</button>
+    </div>
       
   </div>
   
@@ -606,7 +608,7 @@ Nahyaan Poonawala
   <script src="assets/js/custom.js"></script>
 
   <script>
-  // Acc
+  
     $(document).on("click", ".naccs .menu div", function() {
       var numberIndex = $(this).index();
 
@@ -628,9 +630,7 @@ Nahyaan Poonawala
     this.classList.toggle('active');
 });
 
-document.querySelector('.order-button').addEventListener('click', function() {
-    alert('Order placed! wait ma plet');
-});
+
 
 
 $(document).ready(function(){
@@ -647,6 +647,11 @@ $(document).ready(function(){
             }
         });
     });
+
+    function redirectToInquiry(productName) {
+    const encodedProduct = encodeURIComponent(productName);
+    window.location.href = `Inquiryform.html?product=${encodedProduct}`;
+}
 
 
   </script>

@@ -1,70 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <title>SIPL ME</title>
 
-    <title>SIPL ME</title>
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Additional CSS Files -->
+  <link rel="stylesheet" href="assets/css/fontawesome.css">
+  <link rel="stylesheet" href="assets/css/templatemo-onix-digital.css">
+  <link rel="stylesheet" href="assets/css/animated.css">
+  <link rel="stylesheet" href="assets/css/owl.css">
+  <link rel="stylesheet" href="assets/css/Inquiryform.css">
+
+  <!-- Nahyaan Poonawala -->
+</head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
 
 
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/templatemo-onix-digital.css">
-    <link rel="stylesheet" href="assets/css/animated.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
-    <link rel="stylesheet" href="assets/css/Inquiryform.css"
-<!--
-
-Nahyaan Poonawala
-
--->
-  </head>
-  <body>
-    <section id="contact09">
-        <div class="contact-box">
-          <div class="contact-links">
-            <h2 class="animate-charcter">SPOTLIGHT FOR YOUR BRAND</h2>
-            <div class="links">
-              <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.  </p>
+  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href="index.html" class="logo">
+              <h1>SIPL ME </h1>
+            </a>
+            <!-- ***** Logo End ***** -->
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+              <li class="scroll-to-section"><a href="index.html" class="active">Home</a></li>
+              <li class="scroll-to-section"><a href="index.html">Our Offerings</a></li>
+              <li class="scroll-to-section"><a href="index.html">About</a></li>
+              <li class="scroll-to-section"><a href="index.html">Our Brands</a></li>
+              <li class="scroll-to-section"><a href="index.html">Products</a></li> 
+              <li class="scroll-to-section"><a href="index.html">Contact US</a></li> 
+              <li class="scroll-to-section"><div class="main-red-button-hover"><a href="index.html">Contact Us Now</a></div></li> 
+            </ul>        
+            <a class='menu-trigger'>
+                <span>Menu</span>
+            </a>
+            </nav>
             </div>
-          </div>
-          <div class="contact-form-wrapper">
-            <form>
-              <h4>SPONSORSHIP INQUIRY FORM</h4>
-              <p>WE WILL GET IN TOUCH WITH YOU SHORTLY</p>
-              <div class="form-item">
-                <input type="text" name="sender" required>
-                <label>Name:</label>
-              </div>
-              <div class="form-item">
-                <input type="tel" name="phone" required>
-                <label>Phone Number:</label>
-              </div>
-              <div class="form-item">
-                <input type="text" name="budget" required>
-                <label> Your budget:</label>
-              </div>
-              <div class="form-item">
-                <input type="text" name="email" required>
-                <label>Email:</label>
-              </div>
-              <div class="form-item">
-                <textarea class="" name="message" required></textarea>
-                <label>Message:</label>
-              </div>
-              <a href="#" class="custom-btn btn-11 btn-12">Register Now</a>
-            </form>
-          </div>
+            <!-- ***** Menu End ***** -->
+
+
+  <section id="contact09">
+    <div class="contact-box">
+      <div class="contact-links">
+        <h2 class="animate-charcter">SIPL ME Inquiry Form</h2>
+        <div class="links">
+          <p>Product: <span id="product-name"></span></p>
         </div>
-      </section>
-  </body>
+      </div>
+      <div class="contact-form-wrapper">
+        <form>
+          <h4>INQUIRY FORM</h4>
+          <p>WE WILL GET IN TOUCH WITH YOU SHORTLY</p>
+          <div class="form-item">
+            <input type="text" name="sender" required>
+            <label>Name:</label>
+          </div>
+          <div class="form-item">
+            <input type="tel" name="phone" required>
+            <label>Phone Number:</label>
+          </div>
+          <div class="form-item">
+            <input type="text" name="budget" required>
+            <label>Your budget:</label>
+          </div>
+          <div class="form-item">
+            <input type="text" name="email" required>
+            <label>Email:</label>
+          </div>
+          <div class="form-item">
+            <textarea class="" name="message" required></textarea>
+            <label>Message:</label>
+          </div>
+          <a href="#" class="custom-btn btn-11 btn-12">Register Now</a>
+        </form>
+      </div>
+    </div>
+  </section>
+   <!-- Scripts -->
+   <script src="vendor/jquery/jquery.min.js"></script>
+   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+   <script src="assets/js/owl-carousel.js"></script>
+   <script src="assets/js/animation.js"></script>
+   <script src="assets/js/imagesloaded.js"></script>
+   <script src="assets/js/custom.js"></script>
+
+  <script>
+    // Function to get the product name from the URL
+    function getProductFromURL() {
+      const params = new URLSearchParams(window.location.search);
+      return params.get('product') || 'Unknown Product'; // Default to 'Unknown Product' if no 'product' query parameter
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      const productElement = document.getElementById('product-name');
+      if (productElement) {
+        // Set the product name in the span
+        productElement.textContent = getProductFromURL();
+      }
+    });
+    $(document).on("click", ".naccs .menu div", function() {
+      var numberIndex = $(this).index();
+
+      if (!$(this).is("active")) {
+          $(".naccs .menu div").removeClass("active");
+          $(".naccs ul li").removeClass("active");
+
+          $(this).addClass("active");
+          $(".naccs ul").find("li:eq(" + numberIndex + ")").addClass("active");
+
+          var listItemHeight = $(".naccs ul")
+            .find("li:eq(" + numberIndex + ")")
+            .innerHeight();
+          $(".naccs ul").height(listItemHeight + "px");
+        }
+    });
+  </script>
+
+</body>
+</html>

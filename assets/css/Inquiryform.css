@@ -40,6 +40,10 @@
   }
   .contact-form-wrapper {
     text-align: center;
+    background-color: #ffffff8f;
+  border-radius: 0 10px 10px 0;
+  box-shadow: 0px 0px 6px 0px #ccc;
+  min-width: 300px;
   }
   .form-item {
     margin-bottom: 15px;
@@ -52,15 +56,13 @@
   }
   
   .contact-box {
-    width: clamp(100px, 90%, 1000px);
-    margin: 80px 50px;
-    display: flex;
-    flex-wrap: wrap;
+     width: 100%; /* Set to 100% to make the box responsive */
+      max-width: 1000px; /* Set a max-width if needed */
+      margin: 80px 50px;
   }
   
   .contact-links,
   .contact-form-wrapper {
-    width: 50%;
     padding: 8% 5% 10% 5%;
   }
   
@@ -228,4 +230,18 @@
   .btn-11:hover {
     opacity: .7;
     color:#000;
+  }
+  @media only screen and (max-width: 800px) {
+    .contact-links,
+    .contact-form-wrapper {
+      width: 100%;
+    }
+  
+    .contact-links {
+      border-radius: 10px 10px 0 0;
+    }
+  
+    .contact-form-wrapper {
+      border-radius: 0 0 10px 10px;
+    }
   }
