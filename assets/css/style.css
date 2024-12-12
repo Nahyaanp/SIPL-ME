@@ -126,12 +126,7 @@ p {
   color: #2a2a2a;
 }
 
-img {
-  position: relative;
-  width: 100%;
-  
 
-}
 
 /* 
 ---------------------------------------------
@@ -1138,6 +1133,23 @@ Portfolio
   position: absolute;
   z-index: 1;
 }
+
+
+.brand-carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Space between items */
+}
+
+.brand-item img {
+  width: 150px; /* Adjust to the desired size */
+  height: auto; /* Maintains aspect ratio */
+  display: block;
+  margin: 0 auto; /* Centers the images inside their container */
+  object-fit: contain; /* Ensures the entire logo fits within the set dimensions */
+}
+
 
 .our-portfolio {
   padding-top: 120px;
