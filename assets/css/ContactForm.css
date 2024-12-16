@@ -5,7 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 :root {
-  --blue: #007bff;
+  --blue: #FFD700;
   --indigo: #6610f2;
   --purple: #6f42c1;
   --pink: #e83e8c;
@@ -21,7 +21,7 @@
   --primary: #007bff;
   --secondary: #6c757d;
   --success: #28a745;
-  --info: #17a2b8;
+  --info: #FFD700;
   --warning: #ffc107;
   --danger: #dc3545;
   --light: #f8f9fa;
@@ -57,7 +57,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff; }
+  background-color: #000000; }
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -178,7 +178,7 @@ table {
 caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  color: #6c757d;
+  color: #FFD700;
   text-align: left;
   caption-side: bottom; }
 
@@ -313,7 +313,9 @@ h2, .h2 {
   font-size: 2rem; }
 
 h3, .h3 {
-  font-size: 1.75rem; }
+  font-size: 1.75rem;
+  color: #FFD700  ;
+ }
 
 h4, .h4 {
   font-size: 1.5rem; }
@@ -362,7 +364,7 @@ small,
 mark,
 .mark {
   padding: 0.2em;
-  background-color: #fcf8e3; }
+  background-color: #000000; }
 
 .list-unstyled {
   padding-left: 0;
@@ -388,7 +390,7 @@ mark,
 .blockquote-footer {
   display: block;
   font-size: 80%;
-  color: #6c757d; }
+  color: #0389ff; }
   .blockquote-footer::before {
     content: "\2014\00A0"; }
 
@@ -8210,7 +8212,7 @@ textarea.form-control {
   width: 100%; }
 
 .contact-wrap {
-  background: #e8edf0; }
+  background: #000; }
 
 .dbox {
   width: 100%;
@@ -8224,14 +8226,14 @@ textarea.form-control {
     margin-bottom: 0; }
     .dbox p span {
       font-weight: 500;
-      color: #000; }
+      color: #eda800; }
     .dbox p a {
-      color: #2553b8; }
+      color: #fff; }
   .dbox .icon {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background: #2553b8;
+    background: #B78700;
     margin: 0 auto;
     margin-bottom: 20px; }
     .dbox .icon span {
@@ -8266,12 +8268,12 @@ textarea.form-control {
     -moz-box-shadow: 0px 10px 20px -6px rgba(0, 0, 0, 0.22) !important;
     box-shadow: 0px 10px 20px -6px rgba(0, 0, 0, 0.22) !important; }
   .btn.btn-primary {
-    background: #2553b8 !important;
-    border-color: #2553b8 !important;
-    color: #fff; }
+    background: #FFD700 !important;
+    border-color: #DB9D00 !important;
+    color: #000000; }
     .btn.btn-primary:hover, .btn.btn-primary:focus {
-      border-color: #1c408e !important;
-      background: #1c408e !important; }
+      border-color: #FFB300 !important;
+      background: #A57C00 !important; }
 
 .contactForm .label {
   color: #000;
